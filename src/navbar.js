@@ -3,9 +3,10 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 function Navbar(props){
     return (
-        <nav className="navbar navbar-expand-lg navbar-light bg-light">
+        <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a className="navbar-brand">{props.marca}</a>
         <div className="collapse navbar-collapse" id="navbarNav">
-            <ul className="navbar-nav">
+            <ul className="navbar-nav ml-auto">
             <li className="nav-item active">
                 <a className="nav-link" href="#">Home <span className="sr-only">(current)</span></a>
             </li>
