@@ -5,6 +5,7 @@ import './index.css';
 import Navbar from './navbar';
 import Jumpbrotom from './jumpbrotom'
 import Card from './card'
+import Footer from './footer'
 
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
                 <Card imageURl="http://placehold.it/500x325" title="Card title" description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque." buttonLabel="Find out More!" />
 
             </div>
+            <div><Footer footerText="Copyright © Your Website 2020"/></div>
         </div>
     )
 };

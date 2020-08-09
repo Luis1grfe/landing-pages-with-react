@@ -1,10 +1,10 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-function Footer(){
+function Footer(props){
     return(
-        <div>
-            Copyright © Your Website 2020
+        <div className="footer-copyright text-center py-3 text-light bg-dark">
+           {props.footerText}
         </div>
     );
 }
